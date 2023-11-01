@@ -3,7 +3,6 @@
 Pipfile
 .env
 ### Django ###
-manage.py
 *.log
 *.pot
 *.pyc
