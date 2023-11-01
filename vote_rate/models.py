@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class candidate(models.Model):
+class Candidate(models.Model):
     name = models.CharField(max_length=128, null=False, primary_key=True)
     total_student_num = models.IntegerField(null=False)
     voted_student_num = models.IntegerField(null=False)

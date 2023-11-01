@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from vote_rate.models import Candidate
+from django.http import HttpResponse
 
-# Create your views here.
+
+def test(request, name):
+    candidate = Candidate.objects.get(name=name)
+    return HttpResponse(candidate.name)
