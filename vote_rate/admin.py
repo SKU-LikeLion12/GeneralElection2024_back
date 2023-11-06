@@ -4,7 +4,7 @@ from vote_rate.models import Candidate
 admin.site.register(Candidate)
 
 # class CandidateAdmin(admin.ModelAdmin):
-#     readonly_fields = ('name', 'total_student_num', 'category', 'time')
+#     readonly_fields = ('name', 'rate', 'category', 'time')
 
 # admin.site.register(Candidate, CandidateAdmin)
 
