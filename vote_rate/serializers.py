@@ -5,3 +5,9 @@ class CandidateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Candidate
         fields = ['name', 'rate', 'time']
+        
+
+class ALLCandidateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Candidate
+        fields =['name', 'rate']
